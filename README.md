@@ -1,4 +1,4 @@
-This is a repository to hold a draft Chinese website for Paragraf
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
