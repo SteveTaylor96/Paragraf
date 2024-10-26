@@ -22,6 +22,10 @@ test Web
             justify-content: center;
             height: 100vh;
             background-color: #f4f4f4;
+            background-image: url('Background.png'); /* Replace with your PNG file path */
+            background-repeat: repeat; /* Makes the image repeat */
+            background-size: auto; /* Default image size; can also use cover, contain, or custom dimensions */
+
         }
         .container {
             position: relative;
@@ -39,6 +43,7 @@ test Web
             width: 300px; /* Adjust as needed */
             height: auto;
         }
+        /* Apply background style to the whole page */
     </style>
 </head>
 <body>
