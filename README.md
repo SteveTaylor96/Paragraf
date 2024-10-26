@@ -46,13 +46,13 @@ test Web
 <p>I'm hosted with GitHub Pages.</p>
 
 <div class="container">
-    <img id="image" class="image" src="image1.jpg" alt="Image 1">
+    <img id="image" class="image" src="hddie3DC_IMG_5702.JPG" alt="Image 1">
     <div id="text" class="text">石墨烯微芯片</div>
 </div>
 
 <script>
     const images = [
-        { src: 'image1.jpg', text: '快速', hoverText: 'Fast' },
+        { src: 'hddie3DC_IMG_5702.JPG', text: '快速', hoverText: 'Fast' },
         { src: 'image2.jpg', text: '省电', hoverText: 'Power efficient' },
         { src: 'image3.jpg', text: '强壮', hoverText: 'Robust' }
     ];
