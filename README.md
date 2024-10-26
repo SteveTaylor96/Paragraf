@@ -22,7 +22,7 @@ test Web
             justify-content: center;
             height: 100vh;
             background-color: #f4f4f4;
-            background-image: url('Background2.png'); /* Replace with your PNG file path */
+            background-image: url('NewBG3.png'); /* Replace with your PNG file path */
             background-repeat: repeat; /* Makes the image repeat */
             background-size: auto; /* Default image size; can also use cover, contain, or custom dimensions */
 
