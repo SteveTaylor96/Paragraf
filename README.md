@@ -44,9 +44,9 @@ test Web
 
 <script>
     const images = [
-        { src: 'image1.jpg', text: '中文文本', hoverText: 'English Text 1' },
-        { src: 'image2.jpg', text: '中文文本2', hoverText: 'English Text 2' },
-        { src: 'image3.jpg', text: '中文文本3', hoverText: 'English Text 3' }
+        { src: 'image1.jpg', text: '快速', hoverText: 'Fast' },
+        { src: 'image2.jpg', text: '省电', hoverText: 'Power efficient' },
+        { src: 'image3.jpg', text: '强壮', hoverText: 'Robust' }
     ];
     let currentIndex = 0;
 
