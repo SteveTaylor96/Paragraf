@@ -1,6 +1,14 @@
 test Web
-
-
+磁场传感器 magnetic field sensor
+电流传感器 current sensor
+分子传感器 molecular sensor
+场效应晶体管 field effect transistor
+场效应管 FET
+石墨烯场效应晶体管 GFET
+立即购买 buy now
+如果你无法访问，请给我们发电子邮件 If you don't have access, please email us
+低温兼容 cryogenic compatible
+霍尔效应传感器 Hall effect sensor
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,7 +47,7 @@ test Web
 
 <div class="container">
     <img id="image" class="image" src="image1.jpg" alt="Image 1">
-    <div id="text" class="text">中文文本</div>
+    <div id="text" class="text">石墨烯微芯片</div>
 </div>
 
 <script>
