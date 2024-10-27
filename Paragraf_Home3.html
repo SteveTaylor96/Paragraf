@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+		.responsive {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+ 		width: 30%;
+		height: auto;
+		}
+		
+		.container {
+            position: relative;
+            text-align: center;
+        }
+		
+		.text {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            color: white;
+        }
+
+        .image {
+            width: 300px; /* Adjust as needed */
+            height: auto;
+        }
+		
+		* {box-sizing: border-box;}
+
+		input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+
+		input[type=submit] {
+		  background-color: #04AA6D;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+
+		.container {
+		  border-radius: 5px;
+		  background-color: #f2f2f2;
+		  padding: 20px;
+		}
+		.collapsible {
+		  background-color: #777;
+		  color: white;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		}
+
+		.active, .collapsible:hover {
+		  background-color: #555;
+		}
+
+		.content {
+		  padding: 0 18px;
+		  display: none;
+		  overflow: hidden;
+			text-align: left;
+			background-color: #f1f1f1;
+		}
+
+	</style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<BR>
+	<img id="logo" class="responsive" width="161" height="62" src="PARAGRAF-LOGO_Full-Colour-Chinese-1024x339.png" alt="Paragraf 湃瑞科技" onmouseover="this.src='PARAGRAF-LOGO_Full-Colour-1024x339.png'" onmouseout="this.src='PARAGRAF-LOGO_Full-Colour-Chinese-1024x339.png'" />
+ <BR>
+ <header 
+  style="background-image: url('goldtriangle_20.jpg');">
+    <h1 title="Leading the world in graphene microchips" style="font-size:3.5rem; color:white;">石墨烯微芯片世界领先</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#GFET" title="Molecular sensor">分子传感器</a></li>
+      <li><a href="#GHS" title="Magnetic Field and current sensors">磁场和电流传感器</a></li>
+      <li><a href="#Foundry" title="Custom graphene chips">客制化石墨烯微芯片</a></li>
+      <li><a href="#About" title="About Paragraf">关于湃瑞</a></li>
+      <li><a href="#Contact" title="Contact Paragraf">联系湃瑞</a></li>
+    </ul>
+  </nav>
+  <main>
+	<div class="container">
+		<a href="#GFET"><img id="image" class="image" src="1280GFETIMG_4479.JPG" alt="分子传感器 Molecular sensor"></a>
+		<a href="#GHS"><img id="image" class="image" src="1280GHSIMG_4446.JPG" alt="磁场和电流传感器 Magnetic Field and current sensors"></a>
+		<a href="#Foundry"><img id="image" class="image" src="1280FOUNDRYIMG_4567.JPG" alt="客制化石墨烯微芯片 Custom graphene chips"></a>
+	</div>
+<button type="button" class="collapsible" title="Molecular sensor">分子传感器</button>
+<div class="content">
+      <p>湃瑞科技的GFET-PV01 是一种电解质门控 FET（场效应晶体管），采用专有技术批量生产，将石墨烯直接沉积在器件基板上。这会产生一个不含聚合物的石墨烯通道，在运行过程中提供均匀的电场，以实现多功能和可重复的分子传感。</p>
+	<p>GFET-PV01 用于开发传感应用，具有环氧封装层，可在传感器修改和测试期间实现一致的液体处理和对准。此外，这三个通道的位置可实现每个石墨烯通道的可靠手动或自动功能化，以实现多路复用和/或内部参考。该设备与现成的数据采集系统兼容。</p>
+	<h3 title="Specification">规格</h3>
+	<ul>
+		<li>GFET 通道数：3</li>
+		<li>狄拉克点 (mV)：500mV ±200mV</li>
+		<li>跨导 (mS•sq/V)：> 1.5</li>
+		<li>通道电阻 (kOhm)：&lt; 3</li>
+		<li>通道尺寸 (µm)：100 x 100</li>
+	</ul>
+	<p><button type="button" onclick="BuyNow()">立即购买</button></p>
+	<p><a href="#Contact" title="Contact">如果您无法访问本网站，请通过以下方式联系我们</a></p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible" title="Magnetic Field and current sensors">磁场和电流传感器</button>
+<div class="content">
+      <p>湃瑞科技提供一系列磁性和电流传感器，可以在极端和环境环境中以卓越的精度绘制高低磁场图</p>
+	  <p>它们被用于一系列应用，包括汽车、量子计算和低温学。这些基于石墨烯的电子设备是使用标准半导体工艺大规模生产的。</p>
+	<p><button type="button" onclick="MoreGHS()">更多</button></p>
+	<p><a href="#Contact" title="Contact">如果您无法访问本网站，请通过以下方式联系我们</a></p>
+</div>
+<button type="button" class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Open Section 4</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Open Section 5</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+ 
+ <section id="GFET">
+      <h2 title="Molecular sensor">分子传感器</h2>
+      <p>湃瑞科技的GFET-PV01 是一种电解质门控 FET（场效应晶体管），采用专有技术批量生产，将石墨烯直接沉积在器件基板上。这会产生一个不含聚合物的石墨烯通道，在运行过程中提供均匀的电场，以实现多功能和可重复的分子传感。</p>
+	<p>GFET-PV01 用于开发传感应用，具有环氧封装层，可在传感器修改和测试期间实现一致的液体处理和对准。此外，这三个通道的位置可实现每个石墨烯通道的可靠手动或自动功能化，以实现多路复用和/或内部参考。该设备与现成的数据采集系统兼容。</p>
+	<h3 title="Specification">规格</h3>
+	<ul>
+		<li>GFET 通道数：3</li>
+		<li>狄拉克点 (mV)：500mV ±200mV</li>
+		<li>跨导 (mS•sq/V)：> 1.5</li>
+		<li>通道电阻 (kOhm)：&lt; 3</li>
+		<li>通道尺寸 (µm)：100 x 100</li>
+	</ul>
+	<p><button type="button" onclick="BuyNow()">立即购买</button></p>
+	<p><a href="#Contact" title="Contact">如果您无法访问本网站，请通过以下方式联系我们</a></p>
+ </section>
+    <section id="GHS">
+      <h2 title="Magnetic Field and current sensors">磁场和电流传感器</h2>
+      <p>湃瑞科技提供一系列磁性和电流传感器，可以在极端和环境环境中以卓越的精度绘制高低磁场图</p>
+	  <p>它们被用于一系列应用，包括汽车、量子计算和低温学。这些基于石墨烯的电子设备是使用标准半导体工艺大规模生产的。</p>
+	<p><button type="button" onclick="MoreGHS()">更多</button></p>
+	<p><a href="#Contact" title="Contact">如果您无法访问本网站，请通过以下方式联系我们</a></p>
+    </section>
+    <section id="Foundry">
+      <h2 title="Custom graphene chips">客制化石墨烯微芯片</h2>
+		<p>湃瑞科技正在重新定义石墨烯沉积和器件加工。我们开发的解决方案可与现有半导体基础设施即插即用。我们不使用金属催化剂进行生长，也不使用转移过程。所有石墨烯均直接在晶圆上合成，并使用行业标准技术进行加工。</p>
+		<p>湃瑞科技与客户合作，将各种产品推向市场，包括磁场传感器、离子传感器和石墨烯射频电子产品。我们的愿景是进一步开发 2D 材料解决方案以支撑未来的计算。</p>
+		<p>我们欢迎有兴趣与我们合作和/或投资加速这些领域进展的合作伙伴联系。<a href="#Contact" title="Contact">请通过以下方式联系我们以了解更多信息。</a></p>
+    </section>
+    <section id="About">
+      <h2 title="About Paragraf">关于湃瑞</h2>
+		<p>湃瑞科技是世界上第一家使用标准半导体工艺大规模生产基于石墨烯的电子设备的公司。我们目前正在生产的石墨烯霍尔传感器 (GHS) 和石墨烯场效应晶体管 (GFET) 以及正在开发的其他半导体器件，利用我们专有的石墨烯生长工艺来充分利用这种神奇材料的众多特性。我们的产品具有卓越的灵敏度、稳健性和能源效率，可解决汽车、工业自动化、低温、医疗保健和农业技术等一系列应用中的重要问题。</p>
+		<p>在湃瑞科技，我们致力于通过推动半导体行业的 2D 材料革命，对关键的全球挑战产生重大影响，我们相信这将促进生活各个方面技术性能的巨大改进。</p>
+		<p>湃瑞科技于 2018 年从剑桥大学分拆出来，通过三轮融资筹集了 8500 万美元，被广泛认为是新兴科技领导者。</p>
+    </section>
+    <section id="Contact">
+      <h2 title="Contact Paragraf">联系湃瑞</h2>
+		<div class="container">
+		  <form action="/action_page.php">
+			<label for="fname">名字</label>
+			<input type="text" id="fname" name="firstname" placeholder="名字 Your first name..">
+
+			<label for="lname">贵姓</label> 
+			<input type="text" id="lname" name="lastname" placeholder="贵姓 Your family name..">
+
+			<label for="country">国家</label>
+			<select id="country" name="country">
+			  <option value="China">中国 China</option>
+			  <option value="other">其他 Other</option>
+			</select>
+
+			<label for="subject">主题</label>
+			<textarea id="subject" name="subject" placeholder="告诉我们如何提供帮助... Tell us how we can help..." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+		  </form>
+		</div>
+    </section>
+  </main>
+<script>
+function BuyNow() {
+  window.open("https://store.paragraf.com/");
+}
+function MoreGHS() {
+  window.open("https://www.paragraf.com/hall-sensors/");
+}
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+  <footer style="background-image: url('goldtriangle_20.jpg');">
+    <p style="color:white;">&copy; 2024 Paragraf Limited</p>
+  </footer>
+</body>
+</html>
