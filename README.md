@@ -1,4 +1,23 @@
 test Web
+湃瑞科技
+leading the world in graphene electronics
+石墨烯电子领域世界领先
+graphene electronics
+石墨烯电子产品
+石墨烯微芯片
+Graphene microchips
+Graphene micorelectronics
+石墨烯微电子
+
+graphene microelectronics available now
+石墨烯微电子现已上市
+
+Pioneering graphene microelectronics
+开创石墨烯微电子技术
+
+Leading the world in graphene microelectronics
+石墨烯微电子技术世界领先
+
 磁场传感器 magnetic field sensor
 电流传感器 current sensor
 分子传感器 molecular sensor
@@ -14,6 +33,7 @@ test Web
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image and Text Swap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             display: flex;
@@ -25,8 +45,15 @@ test Web
             background-image: url('NewBG3.png'); /* Replace with your PNG file path */
             background-repeat: repeat; /* Makes the image repeat */
             background-size: auto; /* Default image size; can also use cover, contain, or custom dimensions */
-
+            font-family: 'Noto Sans SC', 'Roboto', sans-serif;
         }
+        h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+}
+
+p, li, span {
+  font-family: 'Noto Sans SC', sans-serif; /* Use Noto Sans CJK for body text */
+}
         .container {
             position: relative;
             text-align: center;
