@@ -88,10 +88,10 @@
   </nav>
 
   <main>
-  <div class="container">
-    <img id="image" class="image" src="hddie3DC_IMG_5702.JPG" alt="Image 1">
-    <div id="text" class="text">石墨烯微芯片</div>
-</div>
+	<div class="container">
+		<img id="image" class="image" src="1280GFETIMG_4479.JPG" alt="分子传感器 Molecular sensor">
+		<div id="text" class="text">分子传感器</div>
+	</div>
 
     <section id="GFET">
       <h2 title="Molecular sensor">分子传感器</h2>
@@ -135,7 +135,39 @@
 		</div>
     </section>
   </main>
+<script>
+    const images = [
+        { src: '1280GFETIMG_4479.JPG', text: '分子传感器', hoverText: 'Molecular sensor' },
+        { src: '1280GHSIMG_4446.JPG', text: '磁场和电流传感器', hoverText: 'Magnetic Field and<BR>current sensors' },
+        { src: '1280FOUNDRYIMG_4567.JPG', text: '客制化石墨烯微芯片', hoverText: 'Custom graphene chips' }
+    ];
+    let currentIndex = 0;
 
+    const imageElement = document.getElementById('image');
+    const textElement = document.getElementById('text');
+
+    function updateContent() {
+        const { src, text } = images[currentIndex];
+        imageElement.src = src;
+        textElement.innerText = text;
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateContent();
+    }
+
+    imageElement.addEventListener('mouseover', () => {
+        textElement.innerText = images[currentIndex].hoverText;
+    });
+
+    imageElement.addEventListener('mouseout', () => {
+        textElement.innerText = images[currentIndex].text;
+    });
+
+    setInterval(nextImage, 3000);
+    updateContent(); // Initial load
+</script>
   <footer style="background-image: url('goldtriangle_20.jpg');">
     <p style="color:white;">&copy; 2024 Paragraf Limited</p>
   </footer>
