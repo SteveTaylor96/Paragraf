@@ -1,4 +1,5 @@
 test Web
+Paragraf
 湃瑞科技
 leading the world in graphene electronics
 石墨烯电子领域世界领先
@@ -11,6 +12,9 @@ Graphene micorelectronics
 
 graphene microelectronics available now
 石墨烯微电子现已上市
+
+Graphene microelectronics are already on the market
+石墨烯微电子已经上市
 
 Pioneering graphene microelectronics
 开创石墨烯微电子技术
