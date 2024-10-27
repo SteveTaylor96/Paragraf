@@ -58,9 +58,9 @@ p, li, span {
 
 <script>
     const images = [
-        { src: 'hddie3DC_IMG_5702.JPG', text: '快速', hoverText: 'Fast' },
-        { src: 'image2.jpg', text: '省电', hoverText: 'Power efficient' },
-        { src: 'image3.jpg', text: '强壮', hoverText: 'Robust' }
+        { src: '1280GFETIMG_4479.JPG', text: '分子传感器', hoverText: 'Molecular sensor' },
+        { src: '1280GHSIMG_4446.JPG', text: '磁场和电流传感器', hoverText: 'Magnetic Field and current sensors' },
+        { src: '1280FOUNDRYIMG_4567.JPG', text: '客制化石墨烯微芯片', hoverText: 'Custom graphene chips' }
     ];
     let currentIndex = 0;
 
@@ -132,6 +132,7 @@ Leading the world in graphene microelectronics
 如果你无法访问，请给我们发电子邮件 If you don't have access, please email us
 低温兼容 cryogenic compatible
 霍尔效应传感器 Hall effect sensor
-  
+
+磁场和电流传感器  Magnetic Field and current sensors
 </body>
 </html>
