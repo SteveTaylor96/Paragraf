@@ -1,37 +1,7 @@
-test Web
-Paragraf
-湃瑞科技
-leading the world in graphene electronics
-石墨烯电子领域世界领先
-graphene electronics
-石墨烯电子产品
-石墨烯微芯片
-Graphene microchips
-Graphene micorelectronics
-石墨烯微电子
+石墨烯微芯片世界领先
+Leading the world in graphene microchips
 
-graphene microelectronics available now
-石墨烯微电子现已上市
 
-Graphene microelectronics are already on the market
-石墨烯微电子已经上市
-
-Pioneering graphene microelectronics
-开创石墨烯微电子技术
-
-Leading the world in graphene microelectronics
-石墨烯微电子技术世界领先
-
-磁场传感器 magnetic field sensor
-电流传感器 current sensor
-分子传感器 molecular sensor
-场效应晶体管 field effect transistor
-场效应管 FET
-石墨烯场效应晶体管 GFET
-立即购买 buy now
-如果你无法访问，请给我们发电子邮件 If you don't have access, please email us
-低温兼容 cryogenic compatible
-霍尔效应传感器 Hall effect sensor
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -119,6 +89,49 @@ p, li, span {
     setInterval(nextImage, 3000);
     updateContent(); // Initial load
 </script>
+
+test Web
+Paragraf
+湃瑞科技
+
+
+石墨烯微芯片世界领先
+Leading the world in graphene microchips
+
+石墨烯微芯片
+Graphene microchips
+
+leading the world in graphene electronics
+石墨烯电子领域世界领先
+graphene electronics
+石墨烯电子产品
+石墨烯微芯片
+Graphene microchips
+Graphene micorelectronics
+石墨烯微电子
+
+graphene microelectronics available now
+石墨烯微电子现已上市
+
+Graphene microelectronics are already on the market
+石墨烯微电子已经上市
+
+Pioneering graphene microelectronics
+开创石墨烯微电子技术
+
+Leading the world in graphene microelectronics
+石墨烯微电子技术世界领先
+
+磁场传感器 magnetic field sensor
+电流传感器 current sensor
+分子传感器 molecular sensor
+场效应晶体管 field effect transistor
+场效应管 FET
+石墨烯场效应晶体管 GFET
+立即购买 buy now
+如果你无法访问，请给我们发电子邮件 If you don't have access, please email us
+低温兼容 cryogenic compatible
+霍尔效应传感器 Hall effect sensor
   
 </body>
 </html>
