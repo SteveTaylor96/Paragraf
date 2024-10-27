@@ -11,10 +11,6 @@ body {
   line-height: 1.6;
 }
 
-responsive {
-  max-width: 25%;
-  height: auto;
-}
 
 header, nav, main, footer {
   padding: 20px;
