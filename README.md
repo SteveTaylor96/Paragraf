@@ -80,7 +80,7 @@ p, li, span {
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-
+<img id="logo" class="image" src="PARAGRAF-LOGO_Full-Colour-1024x339.png" alt="Paragraf 湃瑞科技">
 <div class="container">
     <img id="image" class="image" src="hddie3DC_IMG_5702.JPG" alt="Image 1">
     <div id="text" class="text">石墨烯微芯片</div>
