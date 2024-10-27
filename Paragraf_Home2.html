@@ -8,7 +8,7 @@
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
- 		width: 40%;
+ 		width: 30%;
 		height: auto;
 		}
 		
@@ -62,6 +62,29 @@
 		  background-color: #f2f2f2;
 		  padding: 20px;
 		}
+		.collapsible {
+		  background-color: #777;
+		  color: white;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		}
+
+		.active, .collapsible:hover {
+		  background-color: #555;
+		}
+
+		.content {
+		  padding: 0 18px;
+		  display: none;
+		  overflow: hidden;
+		  background-color: #f1f1f1;
+		}
+
 	</style>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -71,7 +94,7 @@
  <BR>
  <header 
   style="background-image: url('goldtriangle_20.jpg');">
-    <h1 title="Leading the world in graphene microchips" style="font-size:4rem; color:white;">石墨烯微芯片世界领先</h1>
+    <h1 title="Leading the world in graphene microchips" style="font-size:3.5rem; color:white;">石墨烯微芯片世界领先</h1>
   </header>
   <nav>
     <ul>
@@ -86,9 +109,22 @@
 	<div class="container">
 		<a href="#GFET"><img id="image" class="image" src="1280GFETIMG_4479.JPG" alt="分子传感器 Molecular sensor"></a>
 		<a href="#GHS"><img id="image" class="image" src="1280GHSIMG_4446.JPG" alt="磁场和电流传感器 Magnetic Field and current sensors"></a>
-		<a href="#FOUNDRY"><img id="image" class="image" src="1280FOUNDRYIMG_4567.JPG" alt="客制化石墨烯微芯片 Custom graphene chips"></a>
+		<a href="#Foundry"><img id="image" class="image" src="1280FOUNDRYIMG_4567.JPG" alt="客制化石墨烯微芯片 Custom graphene chips"></a>
 	</div>
-    <section id="GFET">
+<button type="button" class="collapsible">Open Section 1</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+ 
+ <section id="GFET">
       <h2 title="Molecular sensor">分子传感器</h2>
       <p>湃瑞科技的GFET-PV01 是一种电解质门控 FET（场效应晶体管），采用专有技术批量生产，将石墨烯直接沉积在器件基板上。这会产生一个不含聚合物的石墨烯通道，在运行过程中提供均匀的电场，以实现多功能和可重复的分子传感。</p>
 	<p>GFET-PV01 用于开发传感应用，具有环氧封装层，可在传感器修改和测试期间实现一致的液体处理和对准。此外，这三个通道的位置可实现每个石墨烯通道的可靠手动或自动功能化，以实现多路复用和/或内部参考。该设备与现成的数据采集系统兼容。</p>
@@ -153,6 +189,21 @@ function BuyNow() {
 function MoreGHS() {
   window.open("https://www.paragraf.com/hall-sensors/");
 }
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
 </script>
   <footer style="background-image: url('goldtriangle_20.jpg');">
     <p style="color:white;">&copy; 2024 Paragraf Limited</p>
