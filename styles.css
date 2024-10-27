@@ -1,0 +1,67 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header, nav, main, footer {
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Layout for Mobile Devices (Portrait) */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+/* Layout for Tablets and Small Laptops (Landscape) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+}
+
+/* Layout for Desktop Monitors */
+@media (min-width: 1025px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
