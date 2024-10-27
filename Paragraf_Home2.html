@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+		.responsive {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+ 		width: 40%;
+		height: auto;
+		}
+		
+		.container {
+            position: relative;
+            text-align: center;
+        }
+		
+		.text {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            color: white;
+        }
+
+        .image {
+            width: 300px; /* Adjust as needed */
+            height: auto;
+        }
+		
+		* {box-sizing: border-box;}
+
+		input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+
+		input[type=submit] {
+		  background-color: #04AA6D;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+
+		.container {
+		  border-radius: 5px;
+		  background-color: #f2f2f2;
+		  padding: 20px;
+		}
+	</style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<BR>
+	<img id="logo" class="responsive" width="161" height="62" src="PARAGRAF-LOGO_Full-Colour-Chinese-1024x339.png" alt="Paragraf 湃瑞科技" onmouseover="this.src='PARAGRAF-LOGO_Full-Colour-1024x339.png'" onmouseout="this.src='PARAGRAF-LOGO_Full-Colour-Chinese-1024x339.png'" />
+ <BR>
+ <header 
+  style="background-image: url('goldtriangle_20.jpg');">
+    <h1 title="Leading the world in graphene microchips" style="font-size:4rem; color:white;">石墨烯微芯片世界领先</h1>
+  </header>
+
+
+
+
+  <nav>
+    <ul>
+      <li><a href="#GFET" title="Molecular sensor">分子传感器</a></li>
+      <li><a href="#GHS" title="Magnetic Field and current sensors">磁场和电流传感器</a></li>
+      <li><a href="#Foundry" title="Custom graphene chips">客制化石墨烯微芯片</a></li>
+      <li><a href="#About" title="About Paragraf">关于湃瑞</a></li>
+      <li><a href="#Contact" title="Contact">联系湃瑞</a></li>
+    </ul>
+  </nav>
+
+  <main>
+	<div class="container">
+		<img id="image" class="image" src="1280GFETIMG_4479.JPG" alt="分子传感器 Molecular sensor">
+		<div id="text" class="text">分子传感器</div>
+		<img id="image" class="image" src="1280GFETIMG_4479.JPG" alt="分子传感器 Molecular sensor">
+		<div id="text" class="text">分子传感器</div>
+		<img id="image" class="image" src="1280GFETIMG_4479.JPG" alt="分子传感器 Molecular sensor">
+		<div id="text" class="text">分子传感器</div>
+	</div>
+
+    <section id="GFET">
+      <h2 title="Molecular sensor">分子传感器</h2>
+      <p>This is a sample responsive layout.</p>
+    </section>
+    <section id="GHS">
+      <h2 title="Magnetic Field and current sensors">磁场和电流传感器</h2>
+      <p>This is a sample responsive layout.</p>
+    </section>
+    <section id="Foundry">
+      <h2 title="Custom graphene chips">客制化石墨烯微芯片</h2>
+      <img id="image" class="image" src="hddie3DC_IMG_5702.JPG" alt="Image 1">
+      <div id="text" class="text">石墨烯微芯片</div>
+
+    </section>
+    <section id="About">
+      <h2 title="About Paragraf">关于湃瑞</h2>
+      <p>This is a sample responsive layout.</p>
+    </section>
+    <section id="Contact">
+      <h2 title="Contact Paragraf">联系湃瑞</h2>
+		<div class="container">
+		  <form action="/action_page.php">
+			<label for="fname">名字</label>
+			<input type="text" id="fname" name="firstname" placeholder="名字 Your first name..">
+
+			<label for="lname">贵姓</label> 
+			<input type="text" id="lname" name="lastname" placeholder="贵姓 Your family name..">
+
+			<label for="country">国家</label>
+			<select id="country" name="country">
+			  <option value="China">中国 China</option>
+			  <option value="other">其他 Other</option>
+			</select>
+
+			<label for="subject">主题</label>
+			<textarea id="subject" name="subject" placeholder="告诉我们如何提供帮助... Tell us how we can help..." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+		  </form>
+		</div>
+    </section>
+  </main>
+
+  <footer style="background-image: url('goldtriangle_20.jpg');">
+    <p style="color:white;">&copy; 2024 Paragraf Limited</p>
+  </footer>
+</body>
+</html>
