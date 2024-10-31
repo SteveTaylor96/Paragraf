@@ -15,10 +15,6 @@
 			max-width: 6%;
 			height: auto;
 		}
-		.container {
-            position: relative;
-            text-align: center;
-        }
 		
 		.text {
             position: absolute;
@@ -60,11 +56,6 @@
 		  background-color: #45a049;
 		}
 
-		.container {
-		  border-radius: 5px;
-		  background-color: #f2f2f2;
-		  padding: 20px;
-		}
 		.collapsible {
 		  background-color: #414042;
 		  color: white;
@@ -88,7 +79,13 @@
 			text-align: left;
 			background-color: #f1f1f1;
 		}
-
+		div.transbox {
+		  margin: 50px;
+		  padding: 10px;
+		  background-color: #ffffff;
+		  border: 1px solid black;
+		  opacity: 0.75;
+		}
 	</style>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -99,8 +96,7 @@
   </header>
 
 <Nav>
-	<p><img id="logo" class="responsive" width="161" height="62" src="PARAGRAF-LOGO_Full-Colour-Chinese-1024x339.png" alt="Paragraf 湃瑞科技" onmouseover="this.src='PARAGRAF-LOGO_Full-Colour-1024x339.png'" onmouseout="this.src='PARAGRAF-LOGO_Full-Colour-Chinese-1024x339.png'" />
-  | <B>中文（简体）</B>| <A href="www.paragraf.com">English full site (英文)</A></P>
+	<p><img id="logo" class="responsive" width="161" height="62" src="PARAGRAF-LOGO_Full-Colour-Chinese-1024x339.png" alt="Paragraf 湃瑞科技" onmouseover="this.src='PARAGRAF-LOGO_Full-Colour-1024x339.png'" onmouseout="this.src='PARAGRAF-LOGO_Full-Colour-Chinese-1024x339.png'">&nbsp;|&nbsp;&nbsp;<B>中文（简体）</B>|&nbsp;&nbsp;<A href="www.paragraf.com">English full site (英文)</A></P>
  </Nav>
     <main>
 <button type="button" class="collapsible" title="Molecular sensor"><img class="smallimg" src="GFET300x198.png"/>分子传感器</button>
@@ -166,33 +162,39 @@ for (i = 0; i < coll.length; i++) {
 }
 
 </script>
-  <footer style="background-image: url('goldtriangle_20.jpg');" class="l-footer">
-    <p style="color:white;">&copy; 2024 Paragraf Limited</p>
-<style data-type="us_custom-css">footer{background-color:#333;color:#fff;padding:20px 0;text-align:center}.socials a{margin:0 10px;display:inline-block}.socials svg{width:32px;height:32px;transition:transform 0.3s}</style><section class="l-section wpb_row us_custom_71d3e3d1 height_medium color_footer-bottom"><div class="l-section-overlay" style="background:#e8e8e8"></div><div class="l-section-h i-cf"><div class="g-cols vc_row via_grid cols_2-1 laptops-cols_inherit tablets-cols_inherit mobiles-cols_1 valign_middle type_default stacking_default" style="grid-gap:2rem;"><div class="wpb_column vc_column_container us_custom_e28183d5"><div class="vc_column-inner"><div class="wpb_text_column us_custom_3e11d8f8"><div class="wpb_wrapper"><p><strong>Paragraf Limited </strong><br />
-<a href="tel:+44 (0)1223 739782">+44 (0)1223 739782</a><br />
-<a href="/cdn-cgi/l/email-protection#1e7b706f6b776c777b6d5e6e7f6c7f796c7f78307d7173"><span class="__cf_email__" data-cfemail="56333827233f243f33251626372437312437307835393b">[email&#160;protected]</span></a><br />
-Company registered in England and Wales<br />
-09889431 at 7-8 West Newlands, Somersham, Cambridgeshire, United Kingdom, PE28 3EB<br />
-VAT: GB 261104058</p>
-</div></div><div class="wpb_text_column"><div class="wpb_wrapper"><p>Copyright © 2024 Paragraf Limited</p>
-<p>The Paragraf name, Materially Transforming Electronics, the Paragraf logo, BPU and the Paragraf icon are trademarks belonging to Paragraf Limited and are registered trademarks in the United Kingdom. All other trademarks are the property of their respective owners.</p>
-</div></div></div></div><div class="wpb_column vc_column_container footer_border_left"><div class="vc_column-inner"><div class="wpb_text_column us_custom_4f24afa8"><div class="wpb_wrapper"><p style="text-align: center;">Follow us on</p>
-</div></div><div class="w-html">    <div class="socials">
-        <a href="https://x.com/paragraf_gr" target="_blank" rel="noopener noreferrer">
-            <img src="/wp-content/uploads/2024/08/logo-black.png" width="32" height="32" alt="X">
-        </a>
-        <a href="https://www.linkedin.com/company/paragrafltd/" target="_blank" rel="noopener noreferrer">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                <path d="M22.23 0H1.77C.79 0 0 .774 0 1.73v20.54C0 23.227.79 24 1.77 24h20.46c.98 0 1.77-.773 1.77-1.73V1.73C24 .774 23.21 0 22.23 0zM7.06 20.452H3.56V9h3.5v11.452zM5.31 7.536c-1.12 0-2.02-.892-2.02-1.996 0-1.105.9-1.996 2.02-1.996 1.12 0 2.02.891 2.02 1.996 0 1.104-.9 1.996-2.02 1.996zm14.892 12.916h-3.49v-5.597c0-1.336-.025-3.056-1.862-3.056-1.86 0-2.144 1.45-2.144 2.948v5.705h-3.49V9h3.35v1.561h.048c.465-.878 1.602-1.8 3.296-1.8 3.525 0 4.173 2.32 4.173 5.338v6.352z"/>
-            </svg>
-        </a>
-        <a href="https://www.youtube.com/channel/UCro04ePiyj3n2XOXWrQfamg" target="_blank" rel="noopener noreferrer">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                <path d="M23.499 6.203c-.272-1.035-1.081-1.846-2.116-2.119C19.77 3.5 12 3.5 12 3.5s-7.77 0-9.383.584C1.581 4.357.772 5.168.5 6.203.021 8.106 0 12 0 12s.021 3.894.5 5.797c.272 1.035 1.081 1.846 2.116 2.119C4.23 20.5 12 20.5 12 20.5s7.77 0 9.383-.584c1.035-.272 1.844-1.083 2.116-2.119.479-1.903.5-5.797.5-5.797s-.021-3.894-.5-5.797zM9.545 15.568V8.432L15.545 12l-6 3.568z"/>
-            </svg>
-        </a>
-    </div></div><div class="wpb_text_column"><div class="wpb_wrapper"><p style="text-align: center;"><a href="https://www.paragraf.com/privacy-and-cookie-policy/">Privacy Policy</a> | <a href="https://www.paragraf.com/wp-content/uploads/2023/11/Paragraf-Standard-Terms-and-Conditions-of-Sale-13.11.23-002.pdf" target="_blank" rel="noopener">Terms and Conditions</a></p>
-</div></div><div class="w-image align_center"><div class="w-image-h"><img width="300" height="300" src="https://www.paragraf.com/wp-content/uploads/2023/08/Best-Employers-2023-2025.svg" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" /></div></div></div></div></div></div></section>
+	<footer style="background-image: url('goldtriangle_20.jpg');">
+		<div  class="transbox">
+			<p><strong>Paragraf Limited</strong></p>
+			<p style="text-align: center;">Follow us on</p>
+			<p>
+				<a href="https://www.linkedin.com/company/paragrafltd/" target="_blank" rel="noopener noreferrer">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+						<path d="M22.23 0H1.77C.79 0 0 .774 0 1.73v20.54C0 23.227.79 24 1.77 24h20.46c.98 0 1.77-.773 1.77-1.73V1.73C24 .774 23.21 0 22.23 0zM7.06 20.452H3.56V9h3.5v11.452zM5.31 7.536c-1.12 0-2.02-.892-2.02-1.996 0-1.105.9-1.996 2.02-1.996 1.12 0 2.02.891 2.02 1.996 0 1.104-.9 1.996-2.02 1.996zm14.892 12.916h-3.49v-5.597c0-1.336-.025-3.056-1.862-3.056-1.86 0-2.144 1.45-2.144 2.948v5.705h-3.49V9h3.35v1.561h.048c.465-.878 1.602-1.8 3.296-1.8 3.525 0 4.173 2.32 4.173 5.338v6.352z"/>
+					</svg>
+				</a>
+				&nbsp;|&nbsp;
+				<a href="https://x.com/paragraf_gr" target="_blank" rel="noopener noreferrer">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300.251" width="24" height="24">
+						<path d="M178.57 127.15 290.27 0h-26.46l-97.03 110.38L89.34 0H0l117.13 166.93L0 300.25h26.46l102.4-116.59 81.8 116.59h89.34M36.01 19.54H76.66l187.13 262.13h-40.66"/>
+					</svg>
+				</a>
+				&nbsp;|&nbsp;
+				<a href="https://www.youtube.com/channel/UCro04ePiyj3n2XOXWrQfamg" target="_blank" rel="noopener noreferrer">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+						<path d="M23.499 6.203c-.272-1.035-1.081-1.846-2.116-2.119C19.77 3.5 12 3.5 12 3.5s-7.77 0-9.383.584C1.581 4.357.772 5.168.5 6.203.021 8.106 0 12 0 12s.021 3.894.5 5.797c.272 1.035 1.081 1.846 2.116 2.119C4.23 20.5 12 20.5 12 20.5s7.77 0 9.383-.584c1.035-.272 1.844-1.083 2.116-2.119.479-1.903.5-5.797.5-5.797s-.021-3.894-.5-5.797zM9.545 15.568V8.432L15.545 12l-6 3.568z"/>
+					</svg>
+				</a>
+			</p>
+			<p><a href="https://www.paragraf.com" target="_blank" rel="noopener noreferrer">Paragraf website (英文)</a>&nbsp;|&nbsp;<a href="https://store.paragraf.com" target="_blank" rel="noopener noreferrer">Store (英文)</a> </p>
+			<p><a href="mailto:sales@paragraf.com?subject=Paragraf Chinese enquiry">请给我们发电子邮件以获取更多信息</a></p>
+			<p><a href="tel:+44 (0)1223 739782">电话：+44(0)1223 739782</a></p>
+			<BR>
+			<p><strong>Copyright © 2024 Paragraf Limited</strong></p>
+			<p>The Paragraf name, Materially Transforming Electronics, the Paragraf logo, BPU and the Paragraf icon are trademarks belonging to Paragraf Limited and are registered trademarks in the United Kingdom. All other trademarks are the property of their respective owners.</p>
+			<p><a href="https://www.paragraf.com/privacy-and-cookie-policy/">Privacy Policy (英文)</a> | <a href="https://www.paragraf.com/wp-content/uploads/2023/11/Paragraf-Standard-Terms-and-Conditions-of-Sale-13.11.23-002.pdf" target="_blank" rel="noopener">Terms and Conditions (英文)</a></p>
+			<p>Company registered in England and Wales 7-8 West Newlands, Somersham, Cambridgeshire, United Kingdom, PE28 3EB</p>
+			<p>VAT: GB 261104058</p>
+		</div>
 	</footer>
 
 </body>
